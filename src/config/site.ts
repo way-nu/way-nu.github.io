@@ -12,17 +12,17 @@ export const SITE = {
     /** Monogram shown in the nav badge. */
     monogram: "V",
     /** Professional title. */
-    role: "Full-stack Engineer",
+    role: "Software Engineer",
     /** Renders as "venu@portfolio" in the nav brand and terminal prompt/title. */
     handle: {user: "venu", host: "portfolio"},
     /** Contact email — contact section + terminal `contact` command. */
     email: "venusaim23@gmail.com",
-    /** Route to the résumé — public/resume/index.html redirects to public/docs/resume.pdf. */
-    resumeHref: "/resume",
+    /** Direct path to the résumé PDF in public/docs — resolves in dev and static export alike. */
+    resumeHref: "/docs/resume.pdf",
     /** Availability line in the hero badge. */
     availability: "available for senior roles",
     /** Where you are — footer + (statically) the terminal `whoami`. */
     location: {city: "Pune, India", country: "India", timezone: "IST"},
     /** Plain-text bio used for the page <meta> description. */
-    bio: "Full-stack engineer building 0→1 products, cloud-native systems, and large-scale data pipelines with an agentic-AI SDLC.",
+    bio: "Software engineer who builds products end-to-end — across design, development, and deployment — at the 0→1 stage, with deep hands-on experience in agentic development infrastructure.",
 };

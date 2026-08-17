@@ -5,7 +5,7 @@ import {SITE} from "@/config/site";
 export function SiteNav() {
     return (
         <nav
-            className="sticky top-0 z-20 flex items-center justify-between border-b border-white/[0.07] bg-background/70 px-8 py-4 backdrop-blur-md">
+            className="sticky top-0 z-30 flex items-center justify-between border-b border-white/[0.07] bg-background/70 px-8 py-4 backdrop-blur-md">
             <a href="#home" className="flex items-center gap-2.5 text-foreground">
         <span
             className="grid h-[34px] w-[34px] place-items-center rounded-lg border border-accent/50 font-mono text-[15px] font-bold text-accent">
@@ -32,11 +32,10 @@ export function SiteNav() {
                 <Clock/>
                 <a
                     href={SITE.resumeHref}
-                    target="_blank"
-                    rel="noopener"
+                    download
                     className="rounded-lg border border-accent/55 px-3.5 py-2 font-mono text-[12.5px] text-accent transition-all hover:bg-accent hover:text-[#06110c]"
                 >
-                    resume ↗
+                    resume ↓
                 </a>
             </div>
         </nav>

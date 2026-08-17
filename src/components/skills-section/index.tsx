@@ -4,8 +4,8 @@ import {SKILLS} from "./constants";
 
 export function SkillsSection() {
     return (
-        <section id="skills" className="relative z-[1] mx-auto max-w-[1120px] px-8 py-[70px]">
-            <SectionHeading index="03 /" title="Toolkit"/>
+        <section id="toolkit" className="relative z-[1] mx-auto max-w-[1180px] px-8 py-[70px]">
+            <SectionHeading index="02 /" title="Toolkit"/>
             <div className="grid grid-cols-2 gap-[18px] max-[860px]:grid-cols-1">
                 {SKILLS.map((category) => (
                     <Reveal

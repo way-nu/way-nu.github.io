@@ -11,7 +11,8 @@
       "Bash(pkill -f \"next dev\")",
       "Bash(pkill -f \"next-server\")",
       "Bash(git mv *)",
-      "Bash(git checkout *)"
+      "Bash(git checkout *)",
+      "Bash(grep -nA0 -E \"kind:|dateLabel:|badge:|badgeTone:|title:|sub:\")"
     ]
   }
 }
