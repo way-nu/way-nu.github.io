@@ -5,7 +5,7 @@ export function ContactSection() {
     return (
         <section
             id="contact"
-            className="relative z-[1] mx-auto max-w-[1120px] px-8 pb-[60px] pt-[80px]"
+            className="relative z-[1] mx-auto max-w-[1180px] px-8 pb-[60px] pt-[60px]"
         >
             <Reveal
                 className="rounded-[20px] border border-white/[0.09] p-[clamp(36px,6vw,64px)] text-center"
@@ -14,7 +14,7 @@ export function ContactSection() {
                         "radial-gradient(120% 140% at 0% 0%, rgba(0,224,138,0.07), transparent 55%)",
                 }}
             >
-                <span className="font-mono text-[13px] text-accent">04 / contact</span>
+                <span className="font-mono text-[13px] text-accent">03 / contact</span>
                 <h2 className="my-[14px] text-[clamp(30px,5vw,54px)] font-semibold tracking-[-0.02em]">
                     {CONTACT.heading}<span className="text-accent">.</span>
                 </h2>

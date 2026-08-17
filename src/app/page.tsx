@@ -2,8 +2,7 @@ import {GridBackdrop} from "@/components/grid-backdrop";
 import {CursorSpotlight} from "@/components/cursor-spotlight";
 import {SiteNav} from "@/components/site-nav";
 import {HeroSection} from "@/components/hero-section";
-import {ExperienceSection} from "@/components/experience-section";
-import {ProjectsSection} from "@/components/projects-section";
+import {JourneySection} from "@/components/journey-section";
 import {SkillsSection} from "@/components/skills-section";
 import {ContactSection} from "@/components/contact-section";
 
@@ -15,8 +14,7 @@ export default function Home() {
             <SiteNav/>
             <main>
                 <HeroSection/>
-                <ExperienceSection/>
-                <ProjectsSection/>
+                <JourneySection/>
                 <SkillsSection/>
                 <ContactSection/>
             </main>

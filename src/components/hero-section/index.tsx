@@ -7,7 +7,7 @@ export function HeroSection() {
     return (
         <section
             id="home"
-            className="relative z-[1] mx-auto max-w-[1120px] px-8 pb-[70px] pt-[90px]"
+            className="relative z-[1] mx-auto max-w-[1180px] px-8 pb-[60px] pt-20"
         >
             <div className="grid grid-cols-[1.05fr_0.95fr] items-center gap-14 max-[860px]:grid-cols-1">
                 <div>
@@ -28,7 +28,7 @@ export function HeroSection() {
                         <span className="text-accent">.</span>
                     </h1>
 
-                    <p className="mb-[34px] max-w-[520px] text-[clamp(17px,2vw,20px)] leading-[1.55] text-muted">
+                    <p className="mb-[22px] max-w-[540px] text-[clamp(17px,2vw,20px)] leading-[1.55] text-muted">
                         {HERO.intro.map((seg, i) =>
                             seg.emphasis === "strong" ? (
                                 <span key={i} className="text-foreground">{seg.text}</span>
@@ -38,6 +38,10 @@ export function HeroSection() {
                                 <Fragment key={i}>{seg.text}</Fragment>
                             ),
                         )}
+                    </p>
+
+                    <p className="mb-[34px] max-w-[540px] text-[15.5px] leading-[1.6] text-dim">
+                        {HERO.subIntro}
                     </p>
 
                     <div className="flex flex-wrap gap-[14px]">
