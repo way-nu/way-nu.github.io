@@ -71,7 +71,7 @@ export const TIMELINE: TimelineEntry[] = [
     },
     {
         kind: "project",
-        era: "consulting & open source",
+        era: "agentic AI & open source",
         year: "2026",
         dateLabel: "Aug 2026 — Present",
         badge: "open source project",
@@ -89,7 +89,7 @@ export const TIMELINE: TimelineEntry[] = [
     },
     {
         kind: "job",
-        era: "consulting & open source",
+        era: "backend & agentic AI",
         year: "2026",
         dateLabel: "Mar 2026 — Present",
         badge: "Software Engineer",
