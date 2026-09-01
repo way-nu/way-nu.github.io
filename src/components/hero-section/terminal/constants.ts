@@ -64,7 +64,7 @@ export const OUTPUTS: Record<string, Line[]> = {
         row("frontend ", "React · Next.js · TypeScript · Tailwind · React Flow"),
     ],
     experience: [
-        row("2026—now ", "Fresh Gravity · Consultant, Data Management"),
+        row("2026—now ", "Fresh Gravity · Software Engineer"),
         row("2025—26  ", "nRev.ai · Software Engineer"),
         row("2023—25  ", "Betacrew · Software Engineer (Fitistan)"),
         row("2021—23  ", "Alan AI · Student Partner & Guest Author"),

@@ -92,7 +92,7 @@ export const TIMELINE: TimelineEntry[] = [
         era: "consulting & open source",
         year: "2026",
         dateLabel: "Mar 2026 — Present",
-        badge: "Consultant, Data Management",
+        badge: "Software Engineer",
         title: "Fresh Gravity",
         sub: "Pune, India",
         brief: "Backend work on regulated clinical-trials data in a B2B SaaS product.",
