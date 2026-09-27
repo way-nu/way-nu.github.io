@@ -18,7 +18,7 @@ export const HERO = {
         {text: "."},
     ] as IntroSegment[],
     subIntro:
-        "Built a fitness platform end to end that hit 5,000 users and ₹8,00,000 revenue in 18 days, and now serves 1M+ users across 1,000+ cities. Works async with US-based teams.",
+        "Built a fitness platform end to end that hit 5,000 users and ₹8,00,000 revenue in 18 days, and now serves 1M+ users across 1,000+ cities. At nRev.ai, kept a workflow engine stable at 50K+ executions a day. Works async with US-based teams.",
     primaryCta: {label: "walk the journey ↓", href: "#journey"} as Cta,
     secondaryCta: {label: "get in touch", href: "#contact"} as Cta,
 };
